@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <title>password generator</title>
     <script src="main.js" defer></script>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <button id="button" onclick="generatePassword()">Generate you password</button>
+    <button  id="button" onclick= "generatePassword()">Generate you password</button>
     <br/>
     <br/>
     <br/>
     <p>Your password is: <b><span id="span"></span></b></p>
+    <hr/>
+    <button id="refresh-btn" class="display" onclick="refreshPage()">get another password</button>
+    <div class="center">copyrights &copy;<span id="copyrights"></span>
+    <a href="https://github.com/omarlawah?tab=repositories">omarlawah</a>
+    </div>
 </body>
 </html>
